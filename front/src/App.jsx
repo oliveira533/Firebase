@@ -1,12 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import React from 'react'
 import './App.css'
+import Formu from './componentes/form'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <h1>Teste</h1>
+    <Formu/>
   )
 }
 
