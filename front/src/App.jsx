@@ -1,10 +1,10 @@
 import React from 'react'
-import './App.css'
-import Formu from './componentes/form'
+import Login from './componentes/login'
+import Cadastro from './componentes/cadastro'
 
 function App() {
   return (
-    <Formu/>
+    <Login/>
   )
 }
 
